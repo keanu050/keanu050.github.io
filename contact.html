@@ -52,21 +52,21 @@
           <div class="col-md-6">
             <form>
               <div class="mb-3">
-                <label class="form-label">Naam</label>
-                <input class="form-control" placeholder="Je naam">
+                <label for="name" class="form-label">Naam</label>
+                <input id="name" name="name" class="form-control" placeholder="Je naam" required>
               </div>
               <div class="mb-3">
-                <label class="form-label">E-mail</label>
-                <input class="form-control" type="email" placeholder="naam@voorbeeld.nl">
+                <label for="email" class="form-label">E-mail</label>
+                <input id="email" name="email" class="form-control" type="email" placeholder="naam@voorbeeld.nl" required>
               </div>
               <div class="mb-3">
-                <label class="form-label">Bericht</label>
-                <textarea class="form-control" rows="4"></textarea>
+                <label for="message" class="form-label">Bericht</label>
+                <textarea id="message" name="message" class="form-control" rows="4" required></textarea>
               </div>
               <button type="submit" class="btn btn-accent">Verstuur</button>
             </form>
           </div>
-          <div class="col-md-6">
+          <div class="col-12 col-md-6">
             <h5>Overige contactopties</h5>
             <ul>
               <li>GitHub: <a class="accent" href="https://github.com/keanu050" target="_blank">github.com/keanu050</a></li>
